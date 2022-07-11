@@ -10,29 +10,23 @@
   \import{preamble}{config}
 
   \setup { 
-    title = {A Heuristic Proof on the Non-Deterministic Behaviour of the \textit{Little Room}'s Printer},
-    subtitle = { Thesis Proposal for the degree of Ph.D in Printer Sciences },
+    title = {\textit{Unifiktion}: Puntuaciones de usuarios para \enquote{obras creativas} en la web 
+      semántica.},
+    subtitle = { Propuesta de Investigación },
     author = {
-      \textbf{DankMasterBlader} \\
-      \textit{Institute of Printer Sciences} \\
-      Letter Paper University of Applied Sciences
+      \textbf{Ignacio Slater} \\
+      \textit{Departamento de Ciencias de la Computación} \\
+      Universidad de Chile \\
+      \url{ignacio.slater@ug.uchile.cl}
     },
-    advisors = {
-      \textbf{Alf} \\
-      \textit{?¿??} \\
-      University of \texttt{[BLANK]}. Ph.D  \\
-      {\small\textit{Thesis Advisor}},
-      \textbf{Juan Carlos Bodoque} \\
-      \textit{Thirty-One Minutes} \\
-      {\small\textit{Reviewer}}
-    },
-    logo = {logos/Logo_de_Plut_n.png},
-    location = {Brooklyn, Japan},
+    logo = {logos/LogoDCC.pdf},
+    location = {Santiago, Chile},
     date = \today,
     % Please, I ask you for all that's precious in the world, always include a version for your 
     % document.
     version = 0,
-    build = 2,
+    build = 1,
+    commit = 1
   }
 
 \begin{document}
@@ -50,16 +44,42 @@
     \dateblock \\
     \footnotesize { \texttt{\fullversion} }
   \end{titlepage}
-
+  \pagenumbering{Roman}
   \attributionpage
 
   \import{contents}{Abstract.tex}
   \newpage
   \tableofcontents
+
   \newpage
-  \import{contents}{Introduction__or_Why_I_Created_this_Template.tex}
-  \import{contents}{Quickstart.tex}
-  \import{contents}{Changing_the_Default_Titles.tex}
+  \clearpage
+  \pagenumbering{arabic}
+  
+  \section{Introducción}
+  Una «obra creativa» (este es el término que se usa en Wikidata) es toda creación artística «única», como pueden ser
+libros, películas, música, etc. Actualmente existen muchas bases de datos de obras creativas. Wikidata logra muy
+bien agrupar este tipo de trabajos, pero se centra en información «objetiva». Por otro lado, hay muchísimos sitios
+que sí entregan un servicio de este tipo y que generalmente incluyen datos como los scores dados por los usuarios a
+cada obra (IMDB, MAL, Rawg, Goodreads, etc).
+Una de las funcionalidades que ofrecen las bases de datos que integran datos de usuarios es la de hacer recomendaciones en base a estos datos («Los usuarios que disfrutaron de X también disfrutaron de Y»). Acá podemos apreciar
+una limitación ya que al centrarse en un solo tipo de contenidos, solo se pueden hacer recomendaciones dentro de esa
+misma categoría. Otra «desventaja» que viene de esta restricción es que no se puede representar correctamente el
+concepto de «franquicia», ya que estas pueden estar formadas por distintos tipos de contenido; por ejemplo, Naruto
+es una franquicia formada por mangas, anime, novelas y videojuegos (y música si contamos las bandas sonoras
+como parte de la franquicia). Wikidata, por otro lado, define el concepto de franquicia y la relación entre obras y
+la franquicia a la que pertenecen.
+El problema a solucionar es que no existe una forma estándar que permita relacionar los datos «subjetivos» de las
+bases de datos especializadas con los datos «objetivos» de Wikidata, limitando enormemente la usabilidad de dichos
+datos.
+Para enfrentar este problema, se propone extender la ontología de Wikidata para incorporar datos de usuarios
+de dos de las bases de datos anteriormente mencionadas,1
+tomando una muestra de 50 obras relevantes por sitio.
+Finalmente, se propone validar la ontología propuesta verificando que se pueda usar para calcular métricas (promedio
+y desviación estándar) a franquicias.
+  \section{Estado del arte}
+  \section{Objetivos e hipótesis}
+  \section{Metodología}
+  \section{Resultados esperados}
 
   \printbibliography
 \end{document}
