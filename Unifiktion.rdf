@@ -1,0 +1,446 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="http://arxiv.org/abs/1911.00359">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>arXiv:1911.00359 [cs, stat]</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wenzek</foaf:surname>
+                        <foaf:givenName>Guillaume</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lachaux</foaf:surname>
+                        <foaf:givenName>Marie-Anne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Conneau</foaf:surname>
+                        <foaf:givenName>Alexis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chaudhary</foaf:surname>
+                        <foaf:givenName>Vishrav</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Guzmán</foaf:surname>
+                        <foaf:givenName>Francisco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Joulin</foaf:surname>
+                        <foaf:givenName>Armand</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grave</foaf:surname>
+                        <foaf:givenName>Edouard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_101"/>
+        <link:link rdf:resource="#item_100"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Information Retrieval</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>CCNet: Extracting High Quality Monolingual Datasets from Web Crawl Data</dc:title>
+        <dcterms:abstract>Pre-training text representations have led to significant improvements in many areas of natural language processing. The quality of these models benefits greatly from the size of the pretraining corpora as long as its quality is preserved. In this paper, we describe an automatic pipeline to extract massive high-quality monolingual datasets from Common Crawl for a variety of languages. Our pipeline follows the data processing introduced in fastText (Mikolov et al., 2017; Grave et al., 2018), that deduplicates documents and identifies their language. We augment this pipeline with a filtering step to select documents that are close to high quality corpora like Wikipedia.</dcterms:abstract>
+        <dc:date>2019-11-14</dc:date>
+        <z:shortTitle>CCNet</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1911.00359</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-25 17:44:39</dcterms:dateSubmitted>
+        <dc:description>arXiv: 1911.00359</dc:description>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_101">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv Fulltext PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/1911.00359.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-25 17:44:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_100">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>arXiv.org Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/abs/1911.00359</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-25 17:44:53</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="#item_18">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Seeliger</foaf:surname>
+                        <foaf:givenName>Arne</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pfaff</foaf:surname>
+                        <foaf:givenName>Matthias</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krcmar</foaf:surname>
+                        <foaf:givenName>Helmut</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_97"/>
+        <dc:title>Semantic Web Technologies for Explainable Machine Learning Models: A Literature Review</dc:title>
+        <dcterms:abstract>Due to their tremendous potential in predictive tasks, Machine Learning techniques such as Artificial Neural Networks have received great attention from both research and practice. However, often these models do not provide explainable outcomes which is a crucial requirement in many high stakes domains such as health care or transport. Regarding explainability, Semantic Web Technologies offer semantically interpretable tools which allow reasoning on knowledge bases. Hence, the question arises how Semantic Web Technologies and related concepts can facilitate explanations in Machine Learning systems. To address this topic, we present current approaches of combining Machine Learning with Semantic Web Technologies in the context of model explainability based on a systematic literature review. In doing so, we also highlight domains and applications driving the research field and discuss the ways in which explanations are given to the user. Drawing upon these insights, we suggest directions for further research on combining Semantic Web Technologies with Machine Learning.</dcterms:abstract>
+        <dc:date>2019-10-01</dc:date>
+        <z:shortTitle>Semantic Web Technologies for Explainable Machine Learning Models</z:shortTitle>
+        <z:libraryCatalog>ResearchGate</z:libraryCatalog>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_97">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Seeliger et al. - 2019 - Semantic Web Technologies for Explainable Machine .pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://www.kde.cs.uni-kassel.de/ws/eswc2007/proc/Folksonomies.pdf">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Innsbruck, Austria</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Szomszor</foaf:surname>
+                        <foaf:givenName>Martin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cattuto</foaf:surname>
+                        <foaf:givenName>Ciro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alani</foaf:surname>
+                        <foaf:givenName>Harith</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>O'Hara</foaf:surname>
+                        <foaf:givenName>Kieron</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baldassarri</foaf:surname>
+                        <foaf:givenName>Andrea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Loreto</foaf:surname>
+                        <foaf:givenName>Vittorio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Servedio</foaf:surname>
+                        <foaf:givenName>Vito D. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_99"/>
+        <dc:title>Folksonomies, the semantic web, and movie recommendation</dc:title>
+        <dcterms:abstract>While the Semantic Web has evolved to support the meaningful exchange ofheterogeneous data through shared and controlled conceptualisations, Web 2.0 has demonstrated that large-scale community tagging sites can enrich the semantic web with readily accessible and valuable knowledge. In this paper, we investigate the integration of a movies folksonomy with a semantic knowledge base about user-movie rentals. The folksonomy is used to enrich the knowledge base with descriptions and categorisations of movie titles, and user interests and opinions. Using tags harvested from the Internet Movie Database, and movie rating data gathered by Netflix, we perform experiments to investigate the question that folksonomy-generated movie tag-clouds can be used to construct better user profiles that reflect a user's level of interest in different kinds of movies, and therefore, provide a basis for prediction of their rating for a previously unseen movie.</dcterms:abstract>
+        <dc:date>2007-06</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>oro.open.ac.uk</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.kde.cs.uni-kassel.de/ws/eswc2007/proc/Folksonomies.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-24 21:44:30</dcterms:dateSubmitted>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>4th European Semantic Web Conference, Bridging the Gap between Semantic Web and Web 2.0</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_99">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Szomszor et al. - 2007 - Folksonomies, the semantic web, and movie recommen.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://doi.org/10.1145/3397512">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0001-0782"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hitzler</foaf:surname>
+                        <foaf:givenName>Pascal</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_103"/>
+        <dc:title>A review of the semantic web field</dc:title>
+        <dcterms:abstract>Tracing the triumphs and challenges of two decades of Semantic Web research and applications.</dcterms:abstract>
+        <dc:date>January 25, 2021</dc:date>
+        <z:libraryCatalog>February 2021</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1145/3397512</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-24 21:44:36</dcterms:dateSubmitted>
+        <bib:pages>76–83</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0001-0782">
+        <prism:volume>64</prism:volume>
+        <dc:title>Communications of the ACM</dc:title>
+        <dc:identifier>DOI 10.1145/3397512</dc:identifier>
+        <prism:number>2</prism:number>
+        <dcterms:alternative>Commun. ACM</dcterms:alternative>
+        <dc:identifier>ISSN 0001-0782</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_103">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Hitzler - 2021 - A review of the semantic web field.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://drops.dagstuhl.de/opus/volltexte/2019/10328">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2192-5283"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bonatti</foaf:surname>
+                        <foaf:givenName>Piero Andrea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Decker</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polleres</foaf:surname>
+                        <foaf:givenName>Axel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Presutti</foaf:surname>
+                        <foaf:givenName>Valentina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bonatti</foaf:surname>
+                        <foaf:givenName>Piero Andrea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Decker</foaf:surname>
+                        <foaf:givenName>Stefan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polleres</foaf:surname>
+                        <foaf:givenName>Axel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Presutti</foaf:surname>
+                        <foaf:givenName>Valentina</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <link:link rdf:resource="#item_98"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>knowledge graphs</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>knowledge representation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>linked data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>ontologies</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>semantic web</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web (Dagstuhl Seminar 18371)</dc:title>
+        <dc:date>2019</dc:date>
+        <z:shortTitle>Knowledge Graphs</z:shortTitle>
+        <z:libraryCatalog>Dagstuhl Research Online Publication Server</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://drops.dagstuhl.de/opus/volltexte/2019/10328</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-24 21:44:55</dcterms:dateSubmitted>
+        <dc:description>Place: Dagstuhl, Germany
+Publisher: Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik</dc:description>
+        <bib:pages>29–111</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2192-5283">
+        <prism:volume>8</prism:volume>
+        <dc:title>Dagstuhl Reports</dc:title>
+        <dc:identifier>DOI 10.4230/DagRep.8.9.29</dc:identifier>
+        <prism:number>9</prism:number>
+        <dc:identifier>ISSN 2192-5283</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_98">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Bonatti et al. - 2019 - Knowledge Graphs New Directions for Knowledge Rep.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S0957417411014199">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0957-4174"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jung</foaf:surname>
+                        <foaf:givenName>Jason J.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_102"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Attribute reduction</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Long-tail group</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Recommender system</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Rough set</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>User modeling</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Attribute selection-based recommendation framework for short-head user group: An empirical study by MovieLens and IMDB</dc:title>
+        <dcterms:abstract>Most of recommender systems have serious difficulties on providing relevant services to the “short-head” users who have shown intermixed preferential patterns. In this paper, we assume that such users (which are referred to as long-tail users) can play an important role of information sources for improving the performance of recommendation. Attribute reduction-based mining method has been proposed to efficiently select the long-tail user groups. More importantly, the long-tail user groups as domain experts are employed to provide more trustworthy information. To evaluate the proposed framework, we have integrated MovieLens dataset with IMDB, and empirically shown that the long-tail user groups are useful for the recommendation process.</dcterms:abstract>
+        <dc:date>2012-03-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Attribute selection-based recommendation framework for short-head user group</z:shortTitle>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S0957417411014199</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2022-04-24 21:44:14</dcterms:dateSubmitted>
+        <bib:pages>4049-4054</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0957-4174">
+        <prism:volume>39</prism:volume>
+        <dc:title>Expert Systems with Applications</dc:title>
+        <dc:identifier>DOI 10.1016/j.eswa.2011.09.096</dc:identifier>
+        <prism:number>4</prism:number>
+        <dcterms:alternative>Expert Systems with Applications</dcterms:alternative>
+        <dc:identifier>ISSN 0957-4174</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_102">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Jung - 2012 - Attribute selection-based recommendation framework.pdf</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
